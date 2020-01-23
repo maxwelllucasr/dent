@@ -1,0 +1,60 @@
+.workbenches-container{
+    text-align: center;
+    padding: 5rem 0;
+    width:90%;
+
+    .workbench-headline{
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+    .workbench-item{
+        color: black;
+        text-transform: uppercase;
+    }
+
+    .workbench-item:after{
+       content: "•";
+       margin-left: 6px;
+       margin-right: 2px;
+    }
+
+    .workbench-item:last-child:after{
+        content: "";
+    }
+
+    .workbench-listings-main-page{
+        width:100%;
+        margin:auto;
+
+        a{
+            color: black;
+        }
+        .workbench-thumb{
+            width: 175px;
+        }
+        .workbench-starting-label, .workbench-title{
+            text-transform: uppercase;
+
+        }
+
+        .workbench-title{
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 0.4rem;
+        }
+        .workbench-starting-label{
+            font-size: 0.8rem;
+            margin-top: 0.4rem;
+        }
+        .starting-price{
+            color: #cd591b;
+            font-size: 1.4rem;
+            margin-top: 0.4rem;
+            font-weight: bold;
+        }
+    }
+}

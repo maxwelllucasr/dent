@@ -1,0 +1,27 @@
+.workbench-single{
+
+
+
+    margin: 3rem auto 5rem auto;
+
+
+    img{
+        max-width:55%;
+        // max-height:300px;
+        display:block;
+        margin:0 auto 1rem auto;
+        border-radius: 5px;
+    }
+
+    .workbench-single-title{
+        font-size: 2rem;
+        font-weight:bold;
+        text-align: center;
+    }
+
+    .price-tag{
+        margin-top:1rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}

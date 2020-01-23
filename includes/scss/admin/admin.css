@@ -1,0 +1,76 @@
+body {
+  background-color: #eeeff3; }
+
+.wp-core-ui .button-primary {
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  color: #6772e5;
+  transition: all .15s ease;
+  color: #fff;
+  text-shadow: none;
+  background: #4651D0; }
+
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  background-color: #4E66F8; }
+
+.acf-switch {
+  border-radius: 50px !important;
+  background-image: linear-gradient(-90deg, #343944 0%, #61646b 100%) !important; }
+
+.acf-switch.-on {
+  background-image: linear-gradient(-90deg, #4E66F8 0%, #4651D0 100%) !important; }
+
+.acf-switch .acf-switch-slider {
+  border-radius: 50px !important;
+  border-color: #c6c6c6 !important;
+  background: #686f79 !important; }
+
+.acf-switch.-on .acf-switch-slider {
+  border-color: #4651D0 !important;
+  background: white !important; }
+
+.acf-switch span.acf-switch-off {
+  color: #d7dee8 !important; }
+
+.acf-fields > .acf-tab-wrap {
+  background-image: linear-gradient(-90deg, #343944 0%, #61646b 100%) !important; }
+
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu,
+.acf-flexible-content .layout .acf-fc-layout-handle {
+  background-image: linear-gradient(-90deg, #4E66F8 0%, #4651D0 100%) !important;
+  color: white !important; }
+
+.acf-icon.-collapse:before,
+.acf-flexible-content .layout .acf-fc-layout-order {
+  color: #4E66F8; }
+
+.acf-fields .acf-field {
+  border-top: 1px solid #c6c6c6 !important; }
+  .acf-fields .acf-field:nth-child(even) {
+    background-color: #fdfdfe !important; }
+
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap,
+.acf-repeater .acf-row-handle.order {
+  background-image: linear-gradient(0deg, #61646b 0%, #343944 100%) !important;
+  text-shadow: none !important;
+  color: white !important; }
+
+#tinymce {
+  overflow: visible !important;
+  padding-top: 15px !important;
+  padding-bottom: 1px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important; }
+  #tinymce ul {
+    list-style: disc; }

@@ -1,0 +1,47 @@
+.hero-container{
+    width:100%;
+    min-height: 20rem;
+    background-size: cover;
+    position: relative;
+    z-index:1;
+    
+
+    .hero-inside{
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .hero-headline{
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        text-transform: uppercase;
+    }
+
+    .hero-subtitle{
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        z-index:2;
+        position:relative;
+        text-transform: uppercase;
+    }
+
+    .hero-text{
+        position:absolute;
+        top:40%;
+        margin:auto;
+        left:0;
+        right:0;
+        width:100%;
+
+    }
+}

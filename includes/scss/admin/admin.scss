@@ -1,0 +1,101 @@
+@import "bourbon", "neat";
+
+@import 'partials/variables'; // colors, fonts etc...
+@import 'partials/layout'; // responsive grid and media queries
+
+$dark: #343944;
+$ltdark: #61646b;
+$grey: #686f79;
+$off: #eeeff3;
+$light: #d7dee8;
+$border: #c6c6c6;
+$brightblue: #4E66F8;
+$purple: #4651D0;
+body {
+	background-color: $off;
+}
+.wp-core-ui .button-primary {
+	white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    color: #6772e5;
+    transition: all .15s ease;
+    color: #fff;
+    text-shadow: none;
+    background: $purple;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+	transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    background-color: $brightblue;
+}
+.acf-tab-group li a {
+	
+}
+.acf-switch {
+	border-radius: 50px!important;
+	background-image: linear-gradient(-90deg, $dark 0%, $ltdark 100%)!important;
+}
+.acf-switch.-on {
+    background-image: linear-gradient(-90deg, $brightblue 0%, $purple 100%)!important;
+}
+.acf-switch .acf-switch-slider {
+	border-radius: 50px!important;
+	border-color: $border!important;
+	background: $grey!important;
+}
+.acf-switch.-on .acf-switch-slider {
+	border-color: $purple!important;
+    background: white!important;
+}
+.acf-switch span {
+	&.acf-switch-off {
+		color: $light!important;
+	}
+}
+
+.acf-fields > .acf-tab-wrap {
+	background-image: linear-gradient(-90deg, $dark 0%, $ltdark 100%)!important;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu,
+.acf-flexible-content .layout .acf-fc-layout-handle {
+	background-image: linear-gradient(-90deg, $brightblue 0%, $purple 100%)!important;
+    color: white!important;
+}
+.acf-icon.-collapse:before,
+.acf-flexible-content .layout .acf-fc-layout-order {
+	color: $color-1;
+}
+.acf-fields {
+	.acf-field {
+		border-top: 1px solid $border!important;
+		&:nth-child(even) {
+			background-color: lighten($off, 5%)!important;
+		}
+	}
+}
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap,
+.acf-repeater .acf-row-handle.order {
+	background-image: linear-gradient(0deg, $ltdark 0%, $dark 100%)!important;
+	text-shadow: none!important;
+	color: white!important;
+}
+
+#tinymce {
+	overflow: visible !important;
+	padding-top: 15px !important;
+	padding-bottom: 1px !important;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	ul {
+		list-style: disc;
+	}
+}
