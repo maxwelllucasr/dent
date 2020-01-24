@@ -10,7 +10,7 @@ $footer_background = get_field('footer_background', 'options');
 
 <footer>    
     <div class="columns">
-        <div class="column is-3 footer-left"><a href="/"><span class="footer-rugged">Rugged</span> Workbench</a></div>
+        <div class="column is-3 footer-left"><a href="/"><span class="footer-rugged">Test</span> </a></div>
         <div class="column is-9 footer-right">
             <?php wp_nav_menu( array( 
                 'container'=> false,

@@ -16,7 +16,6 @@ function vesst_scripts_styles() {
 		//Register jQuery
 		wp_enqueue_script('jquery');
 
-		wp_enqueue_script('popout', get_template_directory_uri(). '/includes/js/popout.js', false, false, false);
 
 		// wp_enqueue_script('theme_custom_js', get_template_directory_uri() . '/includes/js/theme-min.js', false, false, false);
 		// wp_enqueue_script('magnific_js', get_template_directory_uri() . '/includes/js/magnific/magnific.js', false, false, false);
@@ -298,10 +297,10 @@ add_action( 'after_setup_theme', 'ea_setup' );
 
 //Register post types
 
-// Workshop Post Type
-require get_template_directory() . '/admin/theme-support/post-type-workshop.php';
+// Custom Post Type Call Template
+// require get_template_directory() . '/admin/theme-support/post-type-YOURPOSTTYPEHERE.php';
 
-register_taxonomy_for_object_type( 'type_category', 'workbenches' );
+// register_taxonomy_for_object_type( 'type_category', 'workbenches' );
 
 
 @ini_set( 'upload_max_size' , '64M' );

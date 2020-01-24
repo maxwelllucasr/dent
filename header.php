@@ -44,7 +44,7 @@
 				</div>
 
 				<div class="column is-2 header-logo">
-					<a href="/"><h1 class="header-logo-text"><span class="header-logo-rugged">Rugged<br></span> Workbench</h1></a>
+					<a href="/"><h1 class="header-logo-text"><span class="header-logo-rugged">Test<br></span> </h1></a>
 				</div>
 				<div class="column is-5 header-menu mobile-hide">
 					<?php wp_nav_menu( array( 
