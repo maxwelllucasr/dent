@@ -25,7 +25,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="wrapper" class=""><!-- wrapper -->
-	<header class="vesst-auto-hide-header">
+	<header class="jcs-auto-hide-header">
 		<div class="header-layout">
 			<div class="columns header-not-popout">
 

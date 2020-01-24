@@ -4,12 +4,12 @@
 
 //-----------------------------------  // Load Scripts & Styles //-----------------------------------//
 
-function vesst_scripts_styles() {
+function jacksoncyberspace_scripts_styles() {
 
 		//---------------------  // Stylesheets // ---------------------//	
-		//wp_enqueue_style( 'vesst_style', get_stylesheet_uri() );
+		//wp_enqueue_style( 'jcs_style', get_stylesheet_uri() );
 		
-		wp_enqueue_style( 'vesst_css', get_template_directory_uri() . "/includes/css/rugged.css" );
+		wp_enqueue_style( 'jcs_css', get_template_directory_uri() . "/includes/css/rugged.css" );
 				
 		//---------------------  // Scripts // ---------------------//
 
@@ -27,7 +27,7 @@ function vesst_scripts_styles() {
 
 }		
 
-add_action( 'wp_enqueue_scripts', 'vesst_scripts_styles' );
+add_action( 'wp_enqueue_scripts', 'jacksoncyberspace_scripts_styles' );
 
 
 
