@@ -9,7 +9,7 @@ function jacksoncyberspace_scripts_styles() {
 		//---------------------  // Stylesheets // ---------------------//	
 		//wp_enqueue_style( 'jcs_style', get_stylesheet_uri() );
 		
-		wp_enqueue_style( 'jcs_css', get_template_directory_uri() . "/includes/css/rugged.css" );
+		wp_enqueue_style( 'jcs_css', get_template_directory_uri() . "/includes/css/dent.css" );
 				
 		//---------------------  // Scripts // ---------------------//
 

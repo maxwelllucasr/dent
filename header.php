@@ -20,6 +20,7 @@
 
 	<?php 
 		$site_title = get_bloginfo( 'name' );
+		$logo = get_field('header_logo','options');
 		// $report_an_incident = get_field('report_an_incident', 'option');
 	?>
 </head>
@@ -29,33 +30,11 @@
 		<div class="header-layout">
 			<div class="columns header-not-popout">
 
+				<div class="column is-4 header-logo">
+					<a href="/" class="header-logo-anchor"><img class="header-image" src="<?=$logo['url']?>"></a>
+				</div>
+
 			
-
-				<div class="column is-5 header-menu mobile-hide">
-
-					<?php wp_nav_menu( array( 
-										'container'=> false,
-										'theme_location' => 'top-left',
-										'depth'             => 2,
-										'menu_class' => 'top-left',
-										'menu_id' => 'header-nav',
-										
-					)); ?>
-				</div>
-
-				<div class="column is-2 header-logo">
-					<a href="/"><h1 class="header-logo-text"><span class="header-logo-rugged">Test<br></span> </h1></a>
-				</div>
-				<div class="column is-5 header-menu mobile-hide">
-					<?php wp_nav_menu( array( 
-										'container'=> false,
-										'theme_location' => 'top-right',
-										'depth'             => 2,
-										'menu_class' => 'top-right',
-										'menu_id' => 'header-nav',
-										
-					)); ?>
-				</div>
 				<i class="fas fa-bars column is-8 mobile-show hamburger-menu" id="cd-menu-trigger"></i>
 			</div>
 			<div class="popout-menu">

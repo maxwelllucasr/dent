@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+//Partials
+@import 'partials/_layout.scss';
+@import 'partials/_mixin.scss';
+@import 'partials/_variables.scss'; 
+
+// Bulma Framework - Variables
+$primary: #6191d1;
+$danger: #8d141a;
+$column-gap: 1.75rem;
+
+$yellow:       #c59522;
+$green:        #5c9f83;
+       
+$primary-font: 'Open Sans', sans-serif;
+$headline-font:	'Open Sans', sans-serif;
+body, button, input, select, textarea {
+    font-family: $primary-font;
+}
+.cover {
+	background-position: center center;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			-o-background-size: cover;
+				background-size: cover;
+}
+
+// Bulma Framework
+@import "../bulma/sass/utilities/_all";
+@import "../bulma/sass/layout/_all";
+@import "../bulma/sass/components/_all";
+@import "../bulma/sass/elements/_all";
+@import "../bulma/sass/base/_all.sass";
+@import "../bulma/sass/grid/_all.sass";
+
+@import 'header.scss';
+
+@import 'media-queries.scss';
