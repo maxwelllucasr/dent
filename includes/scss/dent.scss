@@ -35,5 +35,6 @@ body, button, input, select, textarea {
 @import "../bulma/sass/grid/_all.sass";
 
 @import 'header.scss';
-
+@import 'blocks/blocks.scss';
+@import 'popout.scss';
 @import 'media-queries.scss';

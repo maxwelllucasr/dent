@@ -18,7 +18,7 @@ function jacksoncyberspace_scripts_styles() {
 
 
 		// wp_enqueue_script('theme_custom_js', get_template_directory_uri() . '/includes/js/theme-min.js', false, false, false);
-		// wp_enqueue_script('magnific_js', get_template_directory_uri() . '/includes/js/magnific/magnific.js', false, false, false);
+		wp_enqueue_script('popout_js', get_template_directory_uri() . '/includes/js/popout.js', false, false, false);
 
 		// Register JS
 		wp_enqueue_style('event_cal_min', 'https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.css');
@@ -77,6 +77,8 @@ set_post_thumbnail_size( 'reg-feature',1200, 500, true ); // reg
 add_image_size('small_thumb', '640', '360', true);
 add_image_size('reg-feature', '1000', '850', true);
 add_image_size('big-feature', '1400', '686', false);
+add_image_size('wide-feature', '1400', '300', false);
+
 add_image_size('square', '800', '800', true);
 
 //-----------------------------------  // Register Sidebar Widgets //-----------------------------------//

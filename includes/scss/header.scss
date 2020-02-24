@@ -1,6 +1,6 @@
 header{
 
-    background-color:#436eeb;
+    background-color:$color-11;
 
 
     .header-logo-anchor{
@@ -10,13 +10,27 @@ header{
        
     }
     .header-image{
-        background-color:#dfdfdf;
-        width:80%;
+        background-color:$color-10;
+        width:100%;
         padding: 0.5rem 1rem 0.5rem 0.7rem;
         border-radius: 10px;
+       
 
     }
+    .header-layout{
+        margin: 1.25rem 1.75rem;
+    }
 
+    .hamburger-menu{
+        display:flex;
+        justify-content: right;
+        color: $color-10;
+        font-size:3rem;
+        align-content: center;
+        align-items: center;
+        padding-right:2rem;
+        height:100%;
+    }
 
 
 

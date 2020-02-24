@@ -5,18 +5,18 @@ function register_acf_block_types() {
 
 	if( function_exists('acf_register_block') ) {
 
-    //     acf_register_block(array(
-    //         'name'				=> 'hero',
-    //         'title'				=> __('Hero'),
-    //         'description'		=> __('A Full Width Hero Banner'),
-    //         'render_callback'	=> 'my_acf_block_render_callback',
-    //         'align' 			=> 'full',
-    //         'category'			=> 'layout',
-    //         'icon'				=> 'format-image',
-    //         'keywords'			=> array( 'hero' ),
-    //         'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
-    //         'mode' 				=> 'edit',
-    // ));
+        acf_register_block(array(
+            'name'				=> 'hero',
+            'title'				=> __('Hero'),
+            'description'		=> __('A Full Width Hero Banner'),
+            'render_callback'	=> 'my_acf_block_render_callback',
+            'align' 			=> 'full',
+            'category'			=> 'layout',
+            'icon'				=> 'format-image',
+            'keywords'			=> array( 'hero' ),
+            'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
+            'mode' 				=> 'edit',
+    ));
        
 }}
 

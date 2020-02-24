@@ -24,28 +24,35 @@
 		// $report_an_incident = get_field('report_an_incident', 'option');
 	?>
 </head>
+
+	<div class="popout-menu">
+
+	<i class="fas fa-bars menu-trigger" id="menu-trigger"></i>
+		<?php wp_nav_menu( array( 
+						'container'=> false,
+						'theme_location' => 'dropdown',
+						'depth'             => 2,
+						'menu_class' => 'popout',
+		));
+		?>
+	</div>
+
+
 <body <?php body_class(); ?>>
 <div id="wrapper" class=""><!-- wrapper -->
 	<header class="jcs-auto-hide-header">
 		<div class="header-layout">
 			<div class="columns header-not-popout">
 
-				<div class="column is-4 header-logo">
+				<div class="column is-4 is-8-mobile header-logo is-inline-block">
 					<a href="/" class="header-logo-anchor"><img class="header-image" src="<?=$logo['url']?>"></a>
-				</div>
+				
 
 			
-				<i class="fas fa-bars column is-8 mobile-show hamburger-menu" id="cd-menu-trigger"></i>
+				
+			</div><div class="column is-8 is-4-mobile is-inline-block"><div class="hamburger-menu"><i class="fas fa-bars menu-trigger" id="menu-trigger"></i></div></div>
 			</div>
-			<div class="popout-menu">
-					<?php wp_nav_menu( array( 
-									'container'=> false,
-									'theme_location' => 'dropdown',
-									'depth'             => 2,
-									'menu_class' => 'popout',
-					))
-					?>
-			</div>
+		
 
 		</div>
 	</header>

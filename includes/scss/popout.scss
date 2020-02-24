@@ -1,0 +1,31 @@
+.popout-menu{
+    position:fixed;
+    top:0;
+    bottom:0;
+    width:50%;
+    right:-50%;
+    background-color:black;
+    z-index:99;
+    transition-duration:1s;
+    padding:4rem;
+
+    .menu-trigger{
+        display:flex;
+        justify-content: right;
+        color:$color-10;
+        font-size:3rem;
+    }
+
+    .popout{
+        a{
+            color:$color-10;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+.popout-is-open{
+    transition-duration:1s;
+    transform: translateX(-100%);
+}
