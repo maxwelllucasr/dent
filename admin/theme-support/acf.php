@@ -17,6 +17,18 @@ function register_acf_block_types() {
             'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
             'mode' 				=> 'edit',
     ));
+        acf_register_block(array(
+            'name'				=> 'Trauma-Training',
+            'title'				=> __('Trauma-Training'),
+            'description'		=> __('A Full Width Trauma Training Banner'),
+            'render_callback'	=> 'my_acf_block_render_callback',
+            'align' 			=> 'full',
+            'category'			=> 'layout',
+            'icon'				=> 'format-image',
+            'keywords'			=> array( 'Trauma', 'Training' ),
+            'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
+            'mode' 				=> 'edit',
+    ));
        
 }}
 
