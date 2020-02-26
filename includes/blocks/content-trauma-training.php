@@ -14,10 +14,10 @@ $icon = get_field('trauma_icon');
 
 
 <section class="trauma-training-container">
-
-<?=$headline?>
-<?=$text?>
-<?=$button['url']?>
-<?=$icon?>
-
+    <div class="trauma-training-inside">
+    <?=$headline?>
+    <?=$text?>
+    <?=$button['url']?>
+    <?=$icon?>
+    <div>
 </section>

@@ -6800,6 +6800,11 @@ header {
     right: 0;
     background-color: rgba(0, 0, 0, 0.5); }
 
+.trauma-training-container .trauma-training-inside {
+  width: 90%;
+  display: block;
+  margin: auto; }
+
 .popout-menu {
   position: fixed;
   top: 0;
