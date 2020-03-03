@@ -15,7 +15,7 @@ $button_text = get_field('hero_button');
 
 <section class="hero-container" style="background-image: url(<?=$background['sizes']['big-feature']?>)">
 
-    <div class="hero-sub-container">
+    <div class="hero-sub-container container">
         <h2 class="hero-headline"><?=$headline?></h2>
         <h4 class="hero-subtitle"><?=$subtitle?></h4>
         <p class="hero-text"><?=$text?></p>

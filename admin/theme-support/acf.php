@@ -29,6 +29,18 @@ function register_acf_block_types() {
             'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
             'mode' 				=> 'edit',
     ));
+        acf_register_block(array(
+            'name'				=> 'Respite',
+            'title'				=> __('Respite'),
+            'description'		=> __('A Full Width Respite Banner'),
+            'render_callback'	=> 'my_acf_block_render_callback',
+            'align' 			=> 'full',
+            'category'			=> 'layout',
+            'icon'				=> 'format-image',
+            'keywords'			=> array( 'Respite', 'Care' ),
+            'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
+            'mode' 				=> 'edit',
+    ));
        
 }}
 

@@ -1,7 +1,92 @@
 .trauma-training-container{
+    background-color:$color-12;
+
     .trauma-training-inside{
         width:90%;
         display:block;
-        margin:auto;
+        margin: auto;
+        padding: 3rem 0;
+
+
+        .trauma-icon{
+            width: 300px;
+            height:300px;
+            display:block;
+            background-size:cover;
+            position: relative;
+            z-index:5;
+            margin:auto;
+            background-color: $color-11;
+            border-radius:9999px;
+            padding:0.5rem;
+        }
+
+        .trauma-icon-outside::before{
+            position: absolute;
+            // z-index:-1;
+            background-color:$color-4;
+            height:300px;
+            width:300px;
+            border-radius: 999px;
+            bottom:-10px;
+            right:-10px;
+            content:"";
+        }
+        .trauma-icon-outside{
+            position: relative;
+            width:300px;
+            margin:auto;
+            display:block;
+            // background-color:$color-3;
+            // border-radius:999px;
+            // padding:1rem;
+        }
+        // .trauma-icon-circle{
+        //     z-index:1;
+        //     position:absolute;
+        //     width:300px;
+        //     height:300px;
+        //     content:'';
+        //     bottom:-10px;
+        //     right:-10px;
+        //     border-radius:999px;
+        //     background-color: $color-4;
+            
+        // }
+
+
+        .trauma-training-headline{
+            text-align:center;
+            font-size:2rem;
+        }
+        .trauma-training-text{
+            margin:2rem auto;
+            text-align: center;
+            font-style:italic;
+        }
+        .trauma-training-button{
+            text-align:center;
+            padding:0.5rem 1rem;
+            opacity:0.8;
+            background-color: $color-11;
+
+            font-size:1.5rem;
+            width:auto;
+            border-radius:10px;
+            margin:auto;
+            display:block;
+            width:min-content;
+            p{
+                color:white;
+                white-space: nowrap;
+            }
+            p::after{
+                font-family: "Font Awesome 5 Pro";
+                content:"\f073";
+                margin-left:1rem;
+            }
+
+
+        }
     }
 }

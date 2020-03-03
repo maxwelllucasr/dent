@@ -6800,10 +6800,66 @@ header {
     right: 0;
     background-color: rgba(0, 0, 0, 0.5); }
 
-.trauma-training-container .trauma-training-inside {
-  width: 90%;
-  display: block;
-  margin: auto; }
+.trauma-training-container {
+  background-color: #e0e0e0; }
+  .trauma-training-container .trauma-training-inside {
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding: 3rem 0; }
+    .trauma-training-container .trauma-training-inside .trauma-icon {
+      width: 300px;
+      height: 300px;
+      display: block;
+      background-size: cover;
+      position: relative;
+      z-index: 5;
+      margin: auto;
+      background-color: #436eeb;
+      border-radius: 9999px;
+      padding: 0.5rem; }
+    .trauma-training-container .trauma-training-inside .trauma-icon-outside::before {
+      position: absolute;
+      background-color: #96D9E9;
+      height: 300px;
+      width: 300px;
+      border-radius: 999px;
+      bottom: -10px;
+      right: -10px;
+      content: ""; }
+    .trauma-training-container .trauma-training-inside .trauma-icon-outside {
+      position: relative;
+      width: 300px;
+      margin: auto;
+      display: block; }
+    .trauma-training-container .trauma-training-inside .trauma-training-headline {
+      text-align: center;
+      font-size: 2rem; }
+    .trauma-training-container .trauma-training-inside .trauma-training-text {
+      margin: 2rem auto;
+      text-align: center;
+      font-style: italic; }
+    .trauma-training-container .trauma-training-inside .trauma-training-button {
+      text-align: center;
+      padding: 0.5rem 1rem;
+      opacity: 0.8;
+      background-color: #436eeb;
+      font-size: 1.5rem;
+      width: auto;
+      border-radius: 10px;
+      margin: auto;
+      display: block;
+      width: min-content; }
+      .trauma-training-container .trauma-training-inside .trauma-training-button p {
+        color: white;
+        white-space: nowrap; }
+      .trauma-training-container .trauma-training-inside .trauma-training-button p::after {
+        font-family: "Font Awesome 5 Pro";
+        content: "\f073";
+        margin-left: 1rem; }
+
+.container {
+  max-width: 1100px; }
 
 .popout-menu {
   position: fixed;
