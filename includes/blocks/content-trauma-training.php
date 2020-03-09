@@ -1,7 +1,7 @@
 <?php
 /* ------------------------------------------------------------------------- *
  * 	Jacksoncyberspace
- *  Hero block		Version		 1.0.0
+ *  Trauma Training block		Version		 1.0.0
 /* ------------------------------------------------------------------------- */	
 
 $headline = get_field('trauma_headline');

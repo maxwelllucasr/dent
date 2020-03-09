@@ -1,0 +1,55 @@
+.therapy-container{
+    margin:1.75rem auto;
+    display:block;
+    .therapy-container-inner{
+        width:90%;
+        margin:auto;
+
+        .therapy-strip{
+            height:100%;
+            background-color:$color-12;
+            width:100%;
+            border-radius:999px;
+            max-width:2rem;
+        }
+
+        h2, p{
+            color: $color-12;
+            font-weight:bold;
+        
+        }
+        h2{
+            font-size:2.5rem;
+        }
+        p{
+            margin:1rem 0;
+            font-style:italic;
+        }
+
+        .therapy-button{
+            font-size:1.5rem;
+            color:black;
+            background-color: $color-12;
+            padding:0.5rem 1rem;
+            border-radius:10px;
+            margin-top:1rem;
+
+            span{
+
+                &:after{
+                    font-family:"FontAwesome";
+                    content:"\f073";
+                    margin-left:1rem;
+                }
+            }
+        }
+
+
+        .therapy-icon{
+            border-radius:20px;
+            background-color:$color-12;
+            padding:1rem;
+        }
+
+    }
+}
