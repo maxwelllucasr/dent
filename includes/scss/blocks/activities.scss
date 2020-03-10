@@ -1,3 +1,60 @@
 .activities-container{
+   
+    background-color:$color-12;
+
+    .activities-inner{
+        width:90%;
+        margin:auto;
+    }
+    h2{
+        font-size:2rem;
+        margin-bottom:1rem;
+        font-weight: 600;
+    }
+    p{
+        font-size: 1rem;
+        font-style:italic;
+    }
+    .activities-button-1, .activities-button-2{
+       margin: 2rem auto 0 auto;
+       display:block;
+       padding:0.5rem 1rem;
+       background-color: $color-11;
+       color: white;
+       opacity:0.8;
+       width:max-content;
+       border-radius:10px;
+       font-size:1.5rem;
+    //    text-align: center;
+        // justify-content: center;
+
+        
+    }
+
+    .activities-button-1{
+        &:after{
+            font-family: "FontAwesome";
+            content: "\f073";
+            margin-left: 1rem;
+            // font-size:1.5rem;
+
+
+        }
+    }
+
+    .activities-button-2{
+        &:after{
+            font-family: "FontAwesome";
+            content: "\f03e";
+            margin-left: 1rem;
+            // font-size:1.5rem;
+
+        }
+    }
+
+
+
+
+
     
 }
