@@ -7004,8 +7004,9 @@ header {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 50%;
-  right: -50%;
+  width: 100%;
+  right: -600px;
+  max-width: 600px;
   background-color: black;
   z-index: 99;
   transition-duration: 1s;
@@ -7026,7 +7027,7 @@ header {
 
 .popout-is-open {
   transition-duration: 1s;
-  transform: translateX(-100%); }
+  transform: translateX(-600px); }
 
 footer {
   background-color: #3f62c8; }
