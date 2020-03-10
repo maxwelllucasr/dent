@@ -27,7 +27,7 @@
 
 	<div class="popout-menu">
 
-	<i class="fas fa-bars menu-trigger" id="menu-trigger"></i>
+	<i class="fas fa-bars menu-trigger menu-trigger-in-popout" id="menu-trigger"></i>
 		<?php wp_nav_menu( array( 
 						'container'=> false,
 						'theme_location' => 'dropdown',
