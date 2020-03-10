@@ -6883,7 +6883,7 @@ header {
   .respite-container .respite-button {
     padding: 0 1rem;
     background-color: #436eeb;
-    opacity: 0.8;
+    opacity: 0.9;
     display: block;
     border-radius: 10px;
     margin: auto;
@@ -6995,8 +6995,7 @@ header {
     color: black;
     font-size: 1.4rem;
     width: max-content;
-    border-radius: 10px;
-    font-weight: bold; }
+    border-radius: 10px; }
 
 .container {
   max-width: 1100px; }
