@@ -23,7 +23,30 @@
 
 //768
 @include MQ(MM) {
-   
+    .hero-headline,.hero-subtitle,.hero-text,.hero-button-div,.therapy-container h2,.therapy-container p, .activities-container h2, .activities-container p, .social-icons, .footer-menu li {
+        text-align:center;
+    }
+    .hero-text{
+        width:100% !important;
+    }
+    .respite-overlay{
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+   .therapy-button{
+       width:max-content;
+       display:block;
+       margin-left:auto;
+       margin-right:auto;
+   }
+   .footer-donate{
+       margin-right:auto;
+   }
+   .activities-button-1,.activities-button-2{
+       margin-top:0 !important;
+       margin-bottom:2rem !important;
+   }
 }
 
 //767
