@@ -65,7 +65,18 @@ function register_acf_block_types() {
             'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
             'mode' 				=> 'edit',
     ));
-       
+        acf_register_block(array(
+            'name'				=> 'Life-Skills',
+            'title'				=> __('Life-Skills'),
+            'description'		=> __('A Full Width Life Skills Banner'),
+            'render_callback'	=> 'my_acf_block_render_callback',
+            'align' 			=> 'full',
+            'category'			=> 'layout',
+            'icon'				=> 'format-image',
+            'keywords'			=> array( 'Skills', 'Life' ),
+            'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
+            'mode' 				=> 'edit',
+    ));
 }}
 
 

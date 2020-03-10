@@ -6969,6 +6969,35 @@ header {
     content: "\f03e";
     margin-left: 1rem; }
 
+.life-skills-container {
+  margin: 1.75rem 0;
+  background-color: #436eeb;
+  padding: 2rem 0; }
+  .life-skills-container .container {
+    width: 90%;
+    margin: auto; }
+  .life-skills-container h2, .life-skills-container p, .life-skills-container .life-skills-button {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: #e0e0e0; }
+  .life-skills-container h2 {
+    margin: 0.5rem auto;
+    font-size: 2rem; }
+  .life-skills-container p {
+    margin: 2rem 0;
+    font-style: italic;
+    line-height: 1.15;
+    font-size: 1.1rem; }
+  .life-skills-container .life-skills-button {
+    padding: 0.5rem 1rem;
+    background-color: #e0e0e0;
+    color: black;
+    font-size: 1.4rem;
+    width: max-content;
+    border-radius: 10px;
+    font-weight: bold; }
+
 .container {
   max-width: 1100px; }
 

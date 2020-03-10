@@ -1,0 +1,38 @@
+.life-skills-container{
+    margin:1.75rem 0;
+    background-color:$color-11;
+    padding:2rem 0;
+
+    .container{
+        width:90%;
+        margin:auto;
+    }
+
+
+    h2, p, .life-skills-button{
+        display:block;
+        margin:auto;
+        text-align: center;
+        color: $color-12;
+    }
+    h2{
+        // padding-top:1rem;
+        margin:0.5rem auto;
+        font-size:2rem;
+    }
+    p{
+        margin:2rem 0;
+        font-style: italic;
+        line-height:1.15;
+        font-size:1.1rem;
+    }
+    .life-skills-button{
+        padding:0.5rem 1rem;
+        background-color:$color-12;
+        color:black;
+        font-size:1.4rem;
+        width:max-content;
+        border-radius:10px;
+        font-weight:bold;
+    }
+}
