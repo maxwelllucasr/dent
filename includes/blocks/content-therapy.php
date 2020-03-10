@@ -18,7 +18,7 @@ $icon = get_field('animal_therapy_icon');
         <div class="columns">
 
 
-             <div class="column is-1">
+             <div class="column is-1 is-hidden-mobile">
                 <div class="therapy-strip"></div>
 
              </div>
