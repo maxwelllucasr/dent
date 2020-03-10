@@ -7080,6 +7080,9 @@ footer {
 
   .activities-button-1, .activities-button-2 {
     margin-top: 0 !important;
-    margin-bottom: 2rem !important; } }
+    margin-bottom: 2rem !important; }
+
+  .social-icons {
+    margin: 1rem 0 0 0; } }
 
 /*# sourceMappingURL=dent.css.map */
