@@ -7,7 +7,7 @@
     background-color:black;
     z-index:99;
     transition-duration:1s;
-    padding:4rem;
+    padding:4rem 1rem;
 
     .menu-trigger{
         display:flex;
@@ -17,9 +17,13 @@
     }
 
     .popout{
-        a{
-            color:$color-10;
-            text-transform: uppercase;
+        li{
+            padding:0.5rem 0;
+
+            a{
+                color:$color-10;
+                text-transform: uppercase;
+            }
         }
     }
 

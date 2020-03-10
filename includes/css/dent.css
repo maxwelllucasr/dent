@@ -7009,15 +7009,17 @@ header {
   background-color: black;
   z-index: 99;
   transition-duration: 1s;
-  padding: 4rem; }
+  padding: 4rem 1rem; }
   .popout-menu .menu-trigger {
     display: flex;
     justify-content: right;
     color: #dfdfdf;
     font-size: 3rem; }
-  .popout-menu .popout a {
-    color: #dfdfdf;
-    text-transform: uppercase; }
+  .popout-menu .popout li {
+    padding: 0.5rem 0; }
+    .popout-menu .popout li a {
+      color: #dfdfdf;
+      text-transform: uppercase; }
 
 .popout-is-open {
   transition-duration: 1s;
@@ -7083,6 +7085,6 @@ footer {
     margin-bottom: 2rem !important; }
 
   .social-icons {
-    margin: 1rem 0 0 0; } }
+    margin: 1rem 0 0 0 !important; } }
 
 /*# sourceMappingURL=dent.css.map */
