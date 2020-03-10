@@ -7089,6 +7089,10 @@ footer {
     margin-bottom: 2rem !important; }
 
   .social-icons {
-    margin: 1rem 0 0 0 !important; } }
+    margin: 1rem 0 0 0 !important; }
+
+  .therapy-icon {
+    display: block;
+    margin: auto; } }
 
 /*# sourceMappingURL=dent.css.map */
