@@ -7024,4 +7024,38 @@ header {
   transition-duration: 1s;
   transform: translateX(-100%); }
 
+footer {
+  background-color: #3f62c8; }
+  footer .container {
+    width: 90%;
+    margin: auto; }
+  footer .footer-menu li {
+    padding: 0.25rem; }
+    footer .footer-menu li a {
+      font-weight: bold;
+      color: #e0e0e0;
+      font-size: 1.25rem; }
+  footer .social-icons {
+    margin: 3rem 0 1rem 0; }
+    footer .social-icons i {
+      color: #e0e0e0;
+      font-size: 3rem;
+      margin-right: 1rem; }
+  footer .footer-donate {
+    padding: 0.5rem 1rem;
+    background-color: #e0e0e0;
+    color: black;
+    width: max-content;
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold; }
+  footer .footer-logo {
+    background-color: #e0e0e0;
+    padding: 1rem;
+    border-radius: 10px;
+    display: block; }
+
 /*# sourceMappingURL=dent.css.map */
