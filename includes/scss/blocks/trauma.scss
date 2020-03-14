@@ -7,7 +7,24 @@
         margin: auto;
         padding: 3rem 0;
 
+        &:after{
+            background-image: url('../images/bluedotstraining.png');
+            height:100px;
+            width:100px;
+            background-size:cover;
+            display:block;
+            content:"";
 
+            position: absolute;
+            bottom:100px;
+            right:0;
+        }
+
+        .trauma-training-text,.trauma-training-button,.trauma-training-headline,.trauma-icon{
+            position:relative;
+            z-index:5;
+
+        }
         .trauma-icon{
             width: 300px;
             height:300px;
@@ -63,6 +80,7 @@
             margin:2rem auto;
             text-align: center;
             font-style:italic;
+            font-weight:600;
         }
         .trauma-training-button{
             text-align:center;

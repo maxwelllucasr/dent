@@ -12,7 +12,7 @@ $button = get_field('skills_button');
 
 
 <section class="life-skills-container">
-    <div class="container">
+    <div class="container life-skills-container-inner">
         <h2><?=$headline?></h2>
         <p><?=$copy?></p>
         <a class="life-skills-button" href="<?=$button['url']?>"><?=$button['title']?></a>

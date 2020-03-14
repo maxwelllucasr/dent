@@ -6807,6 +6807,19 @@ header {
     display: block;
     margin: auto;
     padding: 3rem 0; }
+    .trauma-training-container .trauma-training-inside:after {
+      background-image: url("../images/bluedotstraining.png");
+      height: 100px;
+      width: 100px;
+      background-size: cover;
+      display: block;
+      content: "";
+      position: absolute;
+      bottom: 100px;
+      right: 0; }
+    .trauma-training-container .trauma-training-inside .trauma-training-text, .trauma-training-container .trauma-training-inside .trauma-training-button, .trauma-training-container .trauma-training-inside .trauma-training-headline, .trauma-training-container .trauma-training-inside .trauma-icon {
+      position: relative;
+      z-index: 5; }
     .trauma-training-container .trauma-training-inside .trauma-icon {
       width: 300px;
       height: 300px;
@@ -6838,7 +6851,8 @@ header {
     .trauma-training-container .trauma-training-inside .trauma-training-text {
       margin: 2rem auto;
       text-align: center;
-      font-style: italic; }
+      font-style: italic;
+      font-weight: 600; }
     .trauma-training-container .trauma-training-inside .trauma-training-button {
       text-align: center;
       padding: 0.5rem 1rem;
@@ -6951,6 +6965,8 @@ header {
     font-size: 1rem;
     font-style: italic; }
   .activities-container .activities-button-1, .activities-container .activities-button-2 {
+    z-index: 5;
+    position: relative;
     margin: 2rem auto 0 auto;
     display: block;
     padding: 0.5rem 1rem;
@@ -6968,11 +6984,32 @@ header {
     font-family: "FontAwesome";
     content: "\f03e";
     margin-left: 1rem; }
+  .activities-container .activities-buttons {
+    position: relative; }
+    .activities-container .activities-buttons:after {
+      position: absolute;
+      z-index: 1;
+      top: 10%;
+      height: 100%;
+      width: 150px;
+      right: 20%;
+      background-image: url("../images/pinkdots.png");
+      background-size: cover;
+      display: block;
+      content: ""; }
 
 .life-skills-container {
   margin: 1.75rem 0;
   background-color: #436eeb;
-  padding: 2rem 0; }
+  padding: 2rem 0;
+  position: relative; }
+  .life-skills-container .life-skills-container-inner:after {
+    background-image: url("../images/bluedotslifeskills.png");
+    background-size: cover;
+    width: 200px;
+    height: 100%;
+    content: "";
+    position: absolute; }
   .life-skills-container .container {
     width: 90%;
     margin: auto; }

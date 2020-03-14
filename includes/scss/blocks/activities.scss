@@ -16,6 +16,8 @@
         font-style:italic;
     }
     .activities-button-1, .activities-button-2{
+        z-index:5;
+        position: relative;
        margin: 2rem auto 0 auto;
        display:block;
        padding:0.5rem 1rem;
@@ -50,5 +52,23 @@
             // font-size:1.5rem;
 
         }
+    }
+
+    .activities-buttons{
+        position:relative;
+        &:after{
+            position: absolute;
+            z-index:1;
+            top:10%;
+            height:100%;
+            width:150px;
+            right:20%;
+            background-image:url('../images/pinkdots.png');
+            background-size:cover;
+            display:block;
+            content:"";
+            
+        }
+
     }
 }

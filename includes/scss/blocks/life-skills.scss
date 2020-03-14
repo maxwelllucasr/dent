@@ -2,6 +2,20 @@
     margin:1.75rem 0;
     background-color:$color-11;
     padding:2rem 0;
+    position: relative;
+
+    .life-skills-container-inner{
+        &:after{
+            background-image:url('../images/bluedotslifeskills.png');
+            background-size:cover;
+            width:200px;
+            height:100%;
+            content:"";
+            position: absolute;
+
+
+        }
+    }
 
     .container{
         width:90%;
