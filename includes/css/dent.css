@@ -6737,15 +6737,16 @@ header {
     padding: 0.5rem 1rem 0.5rem 0.7rem;
     border-radius: 10px; }
   header .header-layout {
-    margin: 1.25rem 1.75rem; }
+    margin: 1.25rem auto;
+    padding: 0 1rem;
+    max-width: 1100px; }
   header .hamburger-menu {
-    display: flex;
-    justify-content: right;
+    display: block;
+    text-align: right;
     color: #dfdfdf;
     font-size: 3rem;
-    align-content: center;
-    align-items: center;
     padding-right: 2rem;
+    padding-top: 1rem;
     height: 100%; }
 
 .hero-container {
@@ -6990,8 +6991,8 @@ header {
       position: absolute;
       z-index: 1;
       top: 10%;
-      height: 100%;
-      width: 150px;
+      height: 160px;
+      width: 110px;
       right: 20%;
       background-image: url("../images/pinkdots.png");
       background-size: cover;
@@ -7006,10 +7007,12 @@ header {
   .life-skills-container .life-skills-container-inner:after {
     background-image: url("../images/bluedotslifeskills.png");
     background-size: cover;
-    width: 200px;
-    height: 100%;
+    width: 340px;
+    height: 100px;
     content: "";
-    position: absolute; }
+    position: absolute;
+    bottom: 0;
+    z-index: 1; }
   .life-skills-container .container {
     width: 90%;
     margin: auto; }
@@ -7017,7 +7020,9 @@ header {
     display: block;
     margin: auto;
     text-align: center;
-    color: #e0e0e0; }
+    color: #e0e0e0;
+    z-index: 5;
+    position: relative; }
   .life-skills-container h2 {
     margin: 0.5rem auto;
     font-size: 2rem; }
@@ -7025,14 +7030,16 @@ header {
     margin: 2rem 0;
     font-style: italic;
     line-height: 1.15;
-    font-size: 1.1rem; }
+    font-size: 1.1rem;
+    font-weight: 600; }
   .life-skills-container .life-skills-button {
     padding: 0.5rem 1rem;
     background-color: #e0e0e0;
     color: black;
     font-size: 1.4rem;
     width: max-content;
-    border-radius: 10px; }
+    border-radius: 10px;
+    opacity: 0.9; }
 
 .container {
   max-width: 1100px; }
