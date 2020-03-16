@@ -36,11 +36,11 @@
             <div class="container post event texy relative" style="background: <?= $colorvalue; ?>">
                 <div class="event-single-content relative">
                 
-                <?php if (get_post_type() == 'workbench' ) { 
-                    
-                    $price = get_field('starting_price',$id);
-                    
-                    ?>
+                <?php if (get_post_type() == 'event' ) { 
+                
+                    echo "test";
+                   
+                ?>
 
 
 
@@ -55,9 +55,9 @@
 
                     <div class="column is-6">
                         <?php 
-                            $form_object = get_field('workbench_form',$id);
-                            gravity_form_enqueue_scripts($form_object['id'], true);
-                            gravity_form($form_object['id'], false, true, false, '', true, 1);  
+                            // $form_object = get_field('workbench_form',$id);
+                            // gravity_form_enqueue_scripts($form_object['id'], true);
+                            // gravity_form($form_object['id'], false, true, false, '', true, 1);  
                         ?>
                     </div>
 

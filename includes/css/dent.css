@@ -7041,6 +7041,24 @@ header {
     border-radius: 10px;
     opacity: 0.9; }
 
+.calendar-section {
+  margin: 4rem auto; }
+  .calendar-section .fullcalendar {
+    width: 90%;
+    margin: auto; }
+    .calendar-section .fullcalendar td {
+      width: 99999px;
+      height: 100px; }
+    .calendar-section .fullcalendar .month_name {
+      text-align: center;
+      vertical-align: middle;
+      font-size: 1.5rem; }
+    .calendar-section .fullcalendar thead td {
+      vertical-align: middle;
+      text-align: center; }
+      .calendar-section .fullcalendar thead td a {
+        font-size: 2rem; }
+
 .container {
   max-width: 1100px; }
 

@@ -14,16 +14,28 @@ function jacksoncyberspace_scripts_styles() {
 		//---------------------  // Scripts // ---------------------//
 
 		//Register jQuery
-		wp_enqueue_script('jquery');
+		wp_enqueue_script('jquery', get_template_directory_uri() . '/includes/js/jquery.min.js', false, false, false);
 
 
 		// wp_enqueue_script('theme_custom_js', get_template_directory_uri() . '/includes/js/theme-min.js', false, false, false);
 		wp_enqueue_script('popout_js', get_template_directory_uri() . '/includes/js/popout.js', false, false, false);
 
+		//fullcalendar
+		wp_enqueue_script('core_main_js_calendar', get_template_directory_uri() . '/includes/calendar/core/main.js', false, false, false);
+		wp_enqueue_script('daygrid_main_js_calendar', get_template_directory_uri() . '/includes/calendar/daygrid/main.js', false, false, false);
+		wp_enqueue_style('core_main_css_calendar', get_template_directory_uri() . '/includes/calendar/core/main.css', false, false, false);
+		wp_enqueue_style('daygrid_main_css_calendar', get_template_directory_uri() . '/includes/calendar/daygrid/main.css', false, false, false);
+		wp_enqueue_script('calendar_init', get_template_directory_uri() . '/includes/js/calendar-init.js', false, false, false);
+
+
+
+
+
+
 		// Register JS
-		wp_enqueue_style('event_cal_min', 'https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.css');
-		wp_enqueue_script('event_moment_js_min', 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js');
-		wp_enqueue_script('event_cal_js_min', 'https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.js');
+		// wp_enqueue_style('event_cal_min', 'https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.css');
+		// wp_enqueue_script('event_moment_js_min', 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js');
+		// wp_enqueue_script('event_cal_js_min', 'https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.js');
 
 }		
 

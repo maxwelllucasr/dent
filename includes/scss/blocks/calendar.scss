@@ -1,0 +1,32 @@
+.calendar-section{
+    margin:4rem auto;
+
+
+
+    .fullcalendar{
+        width:90%;
+        // display:block;
+        margin:auto;
+
+        td{
+            width:99999px;
+            height:100px;
+        }
+        .month_name{
+            text-align:center;
+            vertical-align: middle;
+            font-size:1.5rem;
+        }
+
+        thead{
+            td{
+                vertical-align: middle;
+                text-align:center;
+                a{
+                    font-size:2rem;
+                }
+            }
+        }
+    }
+
+}
