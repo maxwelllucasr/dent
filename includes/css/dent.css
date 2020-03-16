@@ -7061,7 +7061,9 @@ header {
     color: #dfdfdf;
     font-size: 3rem; }
   .popout-menu .menu-trigger-in-popout {
-    padding-right: 1rem; }
+    padding-right: 1rem;
+    display: block !important;
+    text-align: right; }
   .popout-menu .popout li {
     padding: .75rem 0; }
     .popout-menu .popout li a {
