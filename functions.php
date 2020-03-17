@@ -1,6 +1,6 @@
 <?php
 
-
+// $adminEmail = 'lucas@vesst.io';
 
 //-----------------------------------  // Load Scripts & Styles //-----------------------------------//
 
@@ -41,9 +41,9 @@ function jacksoncyberspace_scripts_styles() {
 
 add_action( 'wp_enqueue_scripts', 'jacksoncyberspace_scripts_styles' );
 
-$msg = "hello!";
-// send email
-mail("lucas@vesst.io","My subject",$msg);
+// $msg = "hello!";
+// // send email
+// mail($adminEmail,"Contact",$msg);
 
 
 //-----------------------------------  // Custom Excerpt Limit //-----------------------------------//
