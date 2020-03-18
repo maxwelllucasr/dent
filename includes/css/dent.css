@@ -7087,6 +7087,13 @@ h2 {
   opacity: 1 !important;
   transition-duration: 0.25s; }
 
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
 .popout-menu {
   position: fixed;
   visibility: hidden;
