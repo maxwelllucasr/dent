@@ -59,6 +59,9 @@
        margin:auto;
        display:block;
    }
+   html,body{
+        overflow-x: hidden !important; 
+   }
 }
 
 //767

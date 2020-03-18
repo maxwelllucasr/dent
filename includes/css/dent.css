@@ -7091,8 +7091,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
-  padding: 0px;
-  overflow-x: hidden; }
+  padding: 0px; }
 
 .wp-block-button {
   opacity: 0.85; }
@@ -7105,6 +7104,9 @@ html, body {
 table.em-calendar td.eventful a, table.em-calendar td.eventful-today a {
   color: darkblue !important;
   font-weight: 700; }
+
+.event-single-content > div > i {
+  display: none; }
 
 .popout-menu {
   position: fixed;
@@ -7269,6 +7271,9 @@ footer {
   .footer-donate-img {
     float: none !important;
     margin: auto;
-    display: block; } }
+    display: block; }
+
+  html, body {
+    overflow-x: hidden !important; } }
 
 /*# sourceMappingURL=dent.css.map */
