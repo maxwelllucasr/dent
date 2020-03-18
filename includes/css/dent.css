@@ -7100,7 +7100,7 @@ html, body {
     opacity: 1; }
 
 .events-table td {
-  margin: 1rem 0; }
+  padding: 0.5rem 0; }
 
 .popout-menu {
   position: fixed;
