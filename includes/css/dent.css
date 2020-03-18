@@ -7062,6 +7062,15 @@ header {
 .container {
   max-width: 1100px; }
 
+.events {
+  max-width: 1100px;
+  width: 90%;
+  margin: 3rem auto;
+  display: block; }
+  .events h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem; }
+
 .popout-menu {
   position: fixed;
   top: 0;
@@ -7130,6 +7139,31 @@ footer {
     border-radius: 10px;
     display: block;
     clear: both; }
+
+.event-single-title {
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0; }
+
+.event-single-content h3 {
+  font-weight: bold;
+  margin: 1rem 0; }
+.event-single-content .em-tickets-spaces {
+  margin-bottom: 1rem; }
+.event-single-content .em-booking-form-details {
+  background-color: #436eeb;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 380px; }
+  .event-single-content .em-booking-form-details p {
+    margin: 1rem 0; }
+  .event-single-content .em-booking-form-details label {
+    color: white;
+    font-weight: bold; }
+
+.event-single {
+  width: 90%;
+  margin: auto;
+  display: block; }
 
 @media only screen and (max-width: 768px) {
   .hero-headline, .hero-subtitle, .hero-text, .hero-button-div, .therapy-container h2, .therapy-container p, .activities-container h2, .activities-container p, .social-icons, .footer-menu li {

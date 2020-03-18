@@ -34,7 +34,8 @@
 				<?php } ?>
 
 				
-				<section class="text-container">
+				<section class="text-container events">
+				
 					<!-- <div class="columns"> -->
 						<!-- <div class="column is-9 text-wysiwyg"> -->
 							<?php the_content(); ?>

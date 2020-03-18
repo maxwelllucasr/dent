@@ -38,18 +38,20 @@
                 
                 <?php if (get_post_type() == 'event' ) { 
                 
-                    echo "test";
                    
+
+
+
                 ?>
 
 
 
 
-                    <section class="workbench-single">
+                    <section class="event-single">
 
                     <?php the_post_thumbnail(); ?>
-                    <div class="workbench-single-title"><?php the_title(); ?></div>
-                    <?php the_content(); ?>
+                    <div class="event-single-title"><?php the_title(); ?></div>
+                    <div class="event-single-content"><?php the_content(); ?></div>
                     
                     <div class="columns">
 
@@ -61,9 +63,7 @@
                         ?>
                     </div>
 
-                    <div class="column is-6">
-                         <h2 class="price-tag">Price: $<?=$price?></h2>
-                    </div>
+                   
                         
                     
                     </div>

@@ -1,0 +1,37 @@
+.event-single-title{
+
+    font-size:2rem;
+    margin:2rem 0 1rem 0;
+}
+
+.event-single-content{
+    h3{
+        font-weight:bold;
+        margin:1rem 0;
+    }
+    .em-tickets-spaces{
+        margin-bottom:1rem;
+    }
+
+    .em-booking-form-details{
+        background-color:$color-11;
+        border-radius:10px;
+        padding:1rem;
+        width:380px;
+        p{
+            margin:1rem 0;
+        }
+
+        label{
+            color:white;
+            font-weight:bold;
+
+        }
+       
+    }
+}
+.event-single{
+    width:90%;
+    margin:auto;
+    display:block;
+}
