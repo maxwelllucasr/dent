@@ -7079,6 +7079,10 @@ header {
   color: white !important;
   transition-duration: .25s; }
 
+.hero-button:hover, .trauma-training-button:hover, .respite-button:hover, .activities-button-1:hover, .activities-button-2:hover, .life-skills-button:hover {
+  opacity: 1 !important;
+  transition-duration: 0.25s; }
+
 .popout-menu {
   position: fixed;
   top: 0;

@@ -28,3 +28,10 @@
         }
     }
 }
+
+.hero-button,.trauma-training-button,.respite-button,.activities-button-1,.activities-button-2,.life-skills-button{
+    &:hover{
+        opacity:1 !important;
+        transition-duration:0.25s;
+    }
+}
