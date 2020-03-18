@@ -7121,11 +7121,15 @@ footer {
     border-radius: 10px;
     font-size: 1.5rem;
     font-weight: bold; }
+  footer .footer-donate-img {
+    max-width: 150px;
+    float: right; }
   footer .footer-logo {
     background-color: #e0e0e0;
     padding: 1rem;
     border-radius: 10px;
-    display: block; }
+    display: block;
+    clear: both; }
 
 @media only screen and (max-width: 768px) {
   .hero-headline, .hero-subtitle, .hero-text, .hero-button-div, .therapy-container h2, .therapy-container p, .activities-container h2, .activities-container p, .social-icons, .footer-menu li {

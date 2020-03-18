@@ -37,11 +37,16 @@ footer{
         font-size:1.5rem;
         font-weight:bold;
     }
+    .footer-donate-img{
+        max-width:150px;
+        float:right
+    }
     .footer-logo{
         background-color: $color-12;
         padding:1rem;
         border-radius:10px;
         display:block;
+        clear:both;
 
         // display:flex;
         // margin-top:auto;
