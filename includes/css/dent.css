@@ -7094,6 +7094,11 @@ html, body {
   padding: 0px;
   overflow-x: hidden; }
 
+.wp-block-button {
+  opacity: 0.85; }
+  .wp-block-button:hover {
+    opacity: 1; }
+
 .popout-menu {
   position: fixed;
   visibility: hidden;

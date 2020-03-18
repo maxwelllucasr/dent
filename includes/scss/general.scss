@@ -49,3 +49,9 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+.wp-block-button{
+    opacity:0.85;
+    &:hover{
+        opacity:1;
+    }
+}
