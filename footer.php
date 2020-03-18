@@ -25,8 +25,8 @@ $donate = get_field('donate','options');
                 ?>
 
                 <div class="social-icons">
-                    <a href="<?=$facebook?>"><i class="fab fa-facebook-square"></i></a>
-                    <a href="<?=$instagram?>"><i class="fab fa-instagram-square"></i></a>
+                    <a href="<?=$facebook?>"><i class="fab fa-facebook-square white-hover"></i></a>
+                    <a href="<?=$instagram?>"><i class="fab fa-instagram-square white-hover"></i></a>
                 </div>
             </div>
             <div class="column is-6">  

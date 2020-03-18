@@ -13,3 +13,18 @@
     }
     
 }
+
+.white-hover{
+    &:hover{
+        color:white !important;
+        transition-duration:0.25s;
+    }
+}
+.footer-menu,.activities-container,.respite-container,.trauma-training-center,.hero-container,.popout-menu{
+    a{
+        &:hover{
+            color:white !important;
+            transition-duration:.25s;
+        }
+    }
+}

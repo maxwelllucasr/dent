@@ -27,7 +27,7 @@
 
 	<div class="popout-menu">
 
-	<i class="fas fa-bars menu-trigger menu-trigger-in-popout" id="menu-trigger"></i>
+	<i class="fas fa-bars menu-trigger menu-trigger-in-popout white-hover" id="menu-trigger"></i>
 		<?php wp_nav_menu( array( 
 						'container'=> false,
 						'theme_location' => 'dropdown',
@@ -50,7 +50,7 @@
 
 			
 				
-			</div><div class="column is-8 is-4-mobile is-inline-block"><div class="hamburger-menu"><i class="fas fa-bars menu-trigger" id="menu-trigger"></i></div></div>
+			</div><div class="column is-8 is-4-mobile is-inline-block"><div class="hamburger-menu"><i class="fas fa-bars menu-trigger white-hover" id="menu-trigger"></i></div></div>
 			</div>
 		
 

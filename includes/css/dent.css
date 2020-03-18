@@ -7071,6 +7071,14 @@ header {
     font-size: 2rem;
     margin-bottom: 1rem; }
 
+.white-hover:hover {
+  color: white !important;
+  transition-duration: 0.25s; }
+
+.footer-menu a:hover, .activities-container a:hover, .respite-container a:hover, .trauma-training-center a:hover, .hero-container a:hover, .popout-menu a:hover {
+  color: white !important;
+  transition-duration: .25s; }
+
 .popout-menu {
   position: fixed;
   top: 0;
