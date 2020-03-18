@@ -20,8 +20,28 @@
         padding-right:1rem;
         display:block !important;
         text-align:right;
+        float:right;
     }
 
+    .popout-menu-container{
+        position:relative;
+        height:100%
+    }
+    .sub-menu-back-target{
+        display:none;
+    }
+    .sub-menu-back{
+        display:block;
+        text-align:center;
+        font-size:3rem;
+        color:$color-10;
+
+        i{
+            float:left;
+            margin-left:2rem;
+        }
+        
+    }
     .popout{
         li{
             padding:.75rem 0;
@@ -33,9 +53,35 @@
             }
         }
 
+        
         .sub-menu{
-            display:none;
+            position:absolute;
+            top:0;
+            background-color:black;
+            border:1px solid gray;
+            height:100%;
+            width:100%;
+            right:-600px;
+            transition-duration: 1s;
+            visibility: hidden;
         }
+        .sub-menu-is-open{
+            right:0 !important;
+            transition-duration:1s;
+            visibility: visible;
+        }
+        
+
+        .menu-item-has-children > a{
+            
+                &:after{
+                    font-family:"FontAwesome";
+                    content:"\f054";
+                    // font-size:1.3rem;
+                    margin-left:0.5rem;
+                }
+        }
+        
 
 
     }

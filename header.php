@@ -27,14 +27,26 @@
 
 	<div class="popout-menu">
 
-	<i class="fas fa-bars menu-trigger menu-trigger-in-popout white-hover" id="menu-trigger"></i>
-		<?php wp_nav_menu( array( 
-						'container'=> false,
-						'theme_location' => 'dropdown',
-						'depth'             => 2,
-						'menu_class' => 'popout',
-		));
-		?>
+
+		<div class="columns">
+			<div class="column is-6 is-5-mobile is-inline-block">
+				<div class="sub-menu-back-target "><i class="fas fa-arrow-left"></i></div>
+			</div>
+			<div class="column is-6 is-6-mobile is-inline-block"><i class="fas fa-bars menu-trigger menu-trigger-in-popout white-hover" id="menu-trigger"></i></div>
+		</div>
+		
+		
+		
+		
+		<div class="popout-menu-container">
+			<?php wp_nav_menu( array( 
+							'container'=> false,
+							'theme_location' => 'dropdown',
+							'depth'             => 2,
+							'menu_class' => 'popout',
+			));
+			?>
+		</div>
 	</div>
 
 
