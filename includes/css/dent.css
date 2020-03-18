@@ -7071,6 +7071,10 @@ header {
     font-size: 2rem;
     margin-bottom: 1rem; }
 
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem; }
+
 .white-hover:hover {
   color: white !important;
   transition-duration: 0.25s; }
