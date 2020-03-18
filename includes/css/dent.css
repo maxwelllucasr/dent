@@ -7099,7 +7099,7 @@ html, body {
   .wp-block-button:hover {
     opacity: 1; }
 
-.events-table tr {
+.events-table td {
   margin: 1rem 0; }
 
 .popout-menu {
