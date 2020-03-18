@@ -5,8 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (calendarEl){
     var calendar = new FullCalendar.Calendar(calendarEl, {
-        // plugins: [ 'dayGrid' ]
+        plugins: [ 'dayGrid' ]
+    ,
+    // eventBackgroundColor = '#facade'
+    
+    
     });
+    
 
     calendar.render();
 

@@ -7102,6 +7102,10 @@ html, body {
 .events-table td {
   padding: 0.5rem 0 !important; }
 
+table.em-calendar td.eventful a, table.em-calendar td.eventful-today a {
+  color: darkblue !important;
+  font-weight: 700; }
+
 .popout-menu {
   position: fixed;
   visibility: hidden;

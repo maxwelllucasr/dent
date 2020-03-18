@@ -60,3 +60,7 @@ html,body
         padding:0.5rem 0 !important;
     }
 }
+table.em-calendar td.eventful a, table.em-calendar td.eventful-today a{
+    color:darkblue !important;
+    font-weight:700;
+}
