@@ -7113,6 +7113,8 @@ h2 {
       color: #dfdfdf;
       text-transform: uppercase;
       padding: .75rem; }
+  .popout-menu .popout .sub-menu {
+    display: none; }
 
 .popout-is-open {
   transition-duration: 1s;
