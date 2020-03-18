@@ -1,5 +1,6 @@
 .popout-menu{
     position:fixed;
+    visibility: hidden;
     top:0;
     bottom:0;
     width:100%;
@@ -91,4 +92,5 @@
 .popout-is-open{
     transition-duration:1s;
     transform: translateX(-600px);
+    visibility: visible;
 }
