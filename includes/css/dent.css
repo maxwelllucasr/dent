@@ -7245,6 +7245,11 @@ footer {
 
   .therapy-icon {
     display: block;
-    margin: auto; } }
+    margin: auto; }
+
+  .footer-donate-img {
+    float: none !important;
+    margin: auto;
+    display: block; } }
 
 /*# sourceMappingURL=dent.css.map */
