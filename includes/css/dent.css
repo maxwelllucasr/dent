@@ -7087,6 +7087,9 @@ h2 {
   opacity: 1 !important;
   transition-duration: 0.25s; }
 
+html {
+  width: 100%; }
+
 .popout-menu {
   position: fixed;
   top: 0;
