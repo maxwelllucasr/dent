@@ -89,6 +89,18 @@ function register_acf_block_types() {
             'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
             'mode' 				=> 'edit',
     ));
+        acf_register_block(array(
+            'name'				=> 'jcs-gallery',
+            'title'				=> __('jcs-gallery'),
+            'description'		=> __('A Full Width jcs-gallery Block'),
+            'render_callback'	=> 'my_acf_block_render_callback',
+            'align' 			=> 'full',
+            'category'			=> 'layout',
+            'icon'				=> 'format-image',
+            'keywords'			=> array( 'Gallery'),
+            'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
+            'mode' 				=> 'edit',
+    ));
 }}
 
 

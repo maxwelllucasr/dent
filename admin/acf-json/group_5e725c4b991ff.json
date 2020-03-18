@@ -1,0 +1,70 @@
+{
+    "key": "group_5e725c4b991ff",
+    "title": "Block: JCS Gallery",
+    "fields": [
+        {
+            "key": "field_5e725c520a1c6",
+            "label": "JCS Gallery",
+            "name": "jcs_gallery",
+            "type": "gallery",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "insert": "append",
+            "library": "all",
+            "min": "",
+            "max": "",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5e725e3bb2e34",
+            "label": "Gallery fullsize",
+            "name": "gallery_fullsize",
+            "type": "true_false",
+            "instructions": "By default gallery images are being loaded with a max resolution of 800x800.  This crops and distorts very wide images but saves on load time.  Check this to disable cropping.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/jcs-gallery"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1584553709
+}
