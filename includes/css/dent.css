@@ -7179,6 +7179,19 @@ table.em-calendar td.eventful a, table.em-calendar td.eventful-today a {
   transform: translateX(-600px);
   visibility: visible; }
 
+.popout-background {
+  position: absolute;
+  z-index: 95;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  transition-duration: 1s; }
+
+.popout-background-target {
+  transition-duration: 1s; }
+
 footer {
   background-color: #3f62c8; }
   footer .container {

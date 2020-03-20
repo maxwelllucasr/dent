@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
         $('.popout-menu').toggleClass('popout-is-open');
         $('.menu-trigger').toggleClass('fa-bars');
         $('.menu-trigger').toggleClass('fa-times');
-
+        $('.popout-background-target').toggleClass('popout-background');
 
 
     });
