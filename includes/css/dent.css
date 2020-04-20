@@ -7241,21 +7241,23 @@ footer {
   font-size: 2rem;
   margin: 2rem 0 1rem 0; }
 
-.event-single-content h3 {
-  font-weight: bold;
-  margin: 1rem 0; }
-.event-single-content .em-tickets-spaces {
-  margin-bottom: 1rem; }
-.event-single-content .em-booking-form-details {
-  background-color: #436eeb;
-  border-radius: 10px;
-  padding: 1rem;
-  width: 380px; }
-  .event-single-content .em-booking-form-details p {
+.event-single-content {
+  margin-top: 3rem; }
+  .event-single-content h3 {
+    font-weight: bold;
     margin: 1rem 0; }
-  .event-single-content .em-booking-form-details label {
-    color: white;
-    font-weight: bold; }
+  .event-single-content .em-tickets-spaces {
+    margin-bottom: 1rem; }
+  .event-single-content .em-booking-form-details {
+    background-color: #436eeb;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 380px; }
+    .event-single-content .em-booking-form-details p {
+      margin: 1rem 0; }
+    .event-single-content .em-booking-form-details label {
+      color: white;
+      font-weight: bold; }
 
 .event-single {
   width: 90%;
