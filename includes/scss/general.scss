@@ -74,3 +74,14 @@ table.em-calendar td.eventful a, table.em-calendar td.eventful-today a{
 .event-description{
     margin:1rem 0;
 }
+.em-booking-form{
+
+    .ticket-price{
+        font-size:1.5rem;
+        margin-bottom:2rem;
+        strong{
+            font-size:1.5rem;
+            color:white;
+        }
+    }
+}

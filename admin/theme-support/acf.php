@@ -101,6 +101,30 @@ function register_acf_block_types() {
             'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
             'mode' 				=> 'edit',
     ));
+        acf_register_block(array(
+            'name'				=> 'Goat Yoga',
+            'title'				=> __('goat-yoga'),
+            'description'		=> __('A Full Width goat yoga Block'),
+            'render_callback'	=> 'my_acf_block_render_callback',
+            'align' 			=> 'full',
+            'category'			=> 'layout',
+            'icon'				=> 'format-image',
+            'keywords'			=> array( 'goat','yoga'),
+            'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
+            'mode' 				=> 'edit',
+    ));
+        acf_register_block(array(
+            'name'				=> 'Volunteer',
+            'title'				=> __('volunteer'),
+            'description'		=> __('A Full Width volunteer Block'),
+            'render_callback'	=> 'my_acf_block_render_callback',
+            'align' 			=> 'full',
+            'category'			=> 'layout',
+            'icon'				=> 'format-image',
+            'keywords'			=> array( 'volunteer'),
+            'supports' 			=> array( 'align' => array( 'full', 'wide' ),),
+            'mode' 				=> 'edit',
+    ));
 }}
 
 
