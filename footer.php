@@ -33,7 +33,7 @@ $donate = get_field('donate','options');
 
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_donations" />
-                <input type="hidden" name="business" value="<?=(get_field('donate','options'))['url']?>" />
+                <input type="hidden" name="business" value="<?=get_field('donate','options')?>" />
                 <input type="hidden" name="currency_code" value="USD" />
                 <input type="image" class="footer-donate-img" src="https://dent.jacksoncyberspace.com/wp-content/uploads/2020/03/Untitled.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
                 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
